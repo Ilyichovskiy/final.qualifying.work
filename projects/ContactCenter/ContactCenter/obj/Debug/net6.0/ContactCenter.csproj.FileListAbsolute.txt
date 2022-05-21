@@ -20,8 +20,6 @@ C:\Source\final.qualifying.work\projects\ContactCenter\ContactCenter\obj\Debug\n
 C:\Source\final.qualifying.work\projects\ContactCenter\ContactCenter\obj\Debug\net6.0\ContactCenter.pdb
 C:\Source\final.qualifying.work\projects\ContactCenter\ContactCenter\obj\Debug\net6.0\ContactCenter.genruntimeconfig.cache
 C:\Source\final.qualifying.work\projects\ContactCenter\ContactCenter\obj\Debug\net6.0\ref\ContactCenter.dll
-C:\Source\final.qualifying.work\projects\ContactCenter\ContactCenter\bin\Debug\net6.0\bundleconfig.json
-C:\Source\final.qualifying.work\projects\ContactCenter\ContactCenter\bin\Debug\net6.0\compilerconfig.json
 C:\Source\final.qualifying.work\projects\ContactCenter\ContactCenter\bin\Debug\net6.0\Azure.Core.dll
 C:\Source\final.qualifying.work\projects\ContactCenter\ContactCenter\bin\Debug\net6.0\Azure.Identity.dll
 C:\Source\final.qualifying.work\projects\ContactCenter\ContactCenter\bin\Debug\net6.0\Humanizer.dll
