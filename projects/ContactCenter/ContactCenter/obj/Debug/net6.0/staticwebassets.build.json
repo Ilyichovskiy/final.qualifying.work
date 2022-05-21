@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "BpD7aw4k0nwRzHwNKjUv9Tuu2fmw4xdE46r/s77PeyY=",
+  "Source": "ContactCenter",
+  "BasePath": "_content/ContactCenter",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ContactCenter\\wwwroot",
+      "Source": "ContactCenter",
+      "ContentRoot": "C:\\Source\\final.qualifying.work\\projects\\ContactCenter\\ContactCenter\\wwwroot\\",
+      "BasePath": "_content/ContactCenter",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
