@@ -1,6 +1,7 @@
 using ContactCenter.Domain;
 using ContactCenter.Domain.Repositories.Abstract;
 using ContactCenter.Domain.Repositories.EntityFramework;
+using ContactCenter.Service;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -18,7 +19,7 @@ builder.Services.AddDbContext<AppDbContext>(x => x.UseSqlServer(connection ?? th
 builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
 {
     options.User.RequireUniqueEmail = true;
-    options.Password.RequiredLength = 6;
+    options.Password.RequiredLength = 3;
     options.Password.RequireNonAlphanumeric = false;
     options.Password.RequireLowercase = false;
     options.Password.RequireUppercase = false;
@@ -34,7 +35,15 @@ builder.Services.ConfigureApplicationCookie(options =>
     options.SlidingExpiration = true;
 });
 
-builder.Services.AddControllersWithViews();
+builder.Services.AddAuthorization(x =>
+{
+    x.AddPolicy("AdminArea", policy => { policy.RequireRole("admin"); });
+});
+
+builder.Services.AddControllersWithViews(x =>
+{
+    x.Conventions.Add(new AdminAreaAuthorization("Admin", "AdminArea"));
+}).AddSessionStateTempDataProvider();
 
 var app = builder.Build();
 if (app.Environment.IsDevelopment())
@@ -52,6 +61,7 @@ app.UseAuthorization();
 
 app.UseEndpoints(endpoints =>
 {
+    endpoints.MapControllerRoute("admin", "{area:exists}/{controller=Home}/{action=Index}/{id?}");
     endpoints.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}");
 });
 

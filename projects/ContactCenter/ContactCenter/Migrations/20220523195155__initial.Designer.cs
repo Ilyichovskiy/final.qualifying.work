@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ContactCenter.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20220522111515__initial")]
+    [Migration("20220523195155__initial")]
     partial class _initial
     {
         /// <inheritdoc />
@@ -84,17 +84,17 @@ namespace ContactCenter.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("eb8ed643-f041-439e-a611-b2fbcbbc1c26"),
+                            Id = new Guid("190d0b7f-465a-4481-afb0-4d49c2315f9c"),
                             CodeWord = "PageIndex",
-                            CreatedOn = new DateTime(2022, 5, 22, 11, 15, 15, 205, DateTimeKind.Utc).AddTicks(2731),
+                            CreatedOn = new DateTime(2022, 5, 23, 19, 51, 54, 919, DateTimeKind.Utc).AddTicks(2399),
                             Text = "Содержание заполняется администратором",
                             Title = "Главная"
                         },
                         new
                         {
-                            Id = new Guid("16b032e3-5014-4743-acdb-0864c5e49576"),
+                            Id = new Guid("7331af22-a593-44b4-869b-ec123cb3109e"),
                             CodeWord = "PageServices",
-                            CreatedOn = new DateTime(2022, 5, 22, 11, 15, 15, 205, DateTimeKind.Utc).AddTicks(2745),
+                            CreatedOn = new DateTime(2022, 5, 23, 19, 51, 54, 919, DateTimeKind.Utc).AddTicks(2412),
                             Text = "Содержание заполняется администратором",
                             Title = "Доступные операции"
                         });
@@ -129,10 +129,10 @@ namespace ContactCenter.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "11fb8fe7-8eec-4974-a60c-6b97676334be",
-                            ConcurrencyStamp = "c42554cb-cb18-4bb3-8401-a7b64f9ebbd2",
-                            Name = "supervisor",
-                            NormalizedName = "SUPERVISOR"
+                            Id = "46e268ac-74db-47f7-b31c-a975e4902923",
+                            ConcurrencyStamp = "9666c064-ba61-4813-b725-a5853a41027b",
+                            Name = "admin",
+                            NormalizedName = "ADMIN"
                         });
                 });
 
@@ -228,19 +228,19 @@ namespace ContactCenter.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "80578094-08b5-49ec-b6b0-df4a6980c15e",
+                            Id = "8b31d0ce-9fc2-46c0-bdd7-4637253057e1",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "ed22e6f6-7f7b-484a-9764-a8e948290279",
-                            Email = "supervisor@email.com",
+                            ConcurrencyStamp = "d157c429-dea9-4cad-b92b-08d4df538071",
+                            Email = "admin@email.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
-                            NormalizedEmail = "SUPERVISOR@email.com",
-                            NormalizedUserName = "SUPERVISOR",
-                            PasswordHash = "AQAAAAEAACcQAAAAEBwzw4bn5FxOp+8EmdPCtGrr4+ax9GeTC2g+kp4JnlDT/wLbfzqX4Vo9fEG55vKAdg==",
+                            NormalizedEmail = "ADMIN@email.com",
+                            NormalizedUserName = "ADMIN",
+                            PasswordHash = "AQAAAAEAACcQAAAAELgkWO5ty/JJVEBzT3/913XairFxby1wltIbRmqEThef2ugh2iTAU6CaX9Tn9fxH+w==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
-                            UserName = "supervisor"
+                            UserName = "admin"
                         });
                 });
 
@@ -308,8 +308,8 @@ namespace ContactCenter.Migrations
                     b.HasData(
                         new
                         {
-                            UserId = "80578094-08b5-49ec-b6b0-df4a6980c15e",
-                            RoleId = "11fb8fe7-8eec-4974-a60c-6b97676334be"
+                            UserId = "8b31d0ce-9fc2-46c0-bdd7-4637253057e1",
+                            RoleId = "46e268ac-74db-47f7-b31c-a975e4902923"
                         });
                 });
 

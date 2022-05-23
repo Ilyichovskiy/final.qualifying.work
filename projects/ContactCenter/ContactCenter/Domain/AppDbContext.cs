@@ -26,19 +26,19 @@ public class AppDbContext : IdentityDbContext<IdentityUser>
         modelBuilder.Entity<IdentityRole>().HasData(new IdentityRole
         {
             Id = _roleId,
-            Name = "supervisor",
-            NormalizedName = "SUPERVISOR"
+            Name = "admin",
+            NormalizedName = "ADMIN"
         });
 
         modelBuilder.Entity<IdentityUser>().HasData(new IdentityUser
         {
             Id = _userId,
-            UserName = "supervisor",
-            NormalizedUserName = "SUPERVISOR",
-            Email = "supervisor@email.com",
-            NormalizedEmail = "SUPERVISOR@email.com",
+            UserName = "admin",
+            NormalizedUserName = "ADMIN",
+            Email = "admin@email.com",
+            NormalizedEmail = "ADMIN@email.com",
             EmailConfirmed = true,
-            PasswordHash = new PasswordHasher<IdentityUser>().HashPassword(null, "supervisor"),
+            PasswordHash = new PasswordHasher<IdentityUser>().HashPassword(null, "admin"),
             SecurityStamp = string.Empty
         });
 

@@ -81,17 +81,17 @@ namespace ContactCenter.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("0ecfcf80-9ec8-4611-9728-dd2508fc3142"),
+                            Id = new Guid("190d0b7f-465a-4481-afb0-4d49c2315f9c"),
                             CodeWord = "PageIndex",
-                            CreatedOn = new DateTime(2022, 5, 22, 11, 32, 31, 168, DateTimeKind.Utc).AddTicks(9680),
+                            CreatedOn = new DateTime(2022, 5, 23, 19, 51, 54, 919, DateTimeKind.Utc).AddTicks(2399),
                             Text = "Содержание заполняется администратором",
                             Title = "Главная"
                         },
                         new
                         {
-                            Id = new Guid("a78a0d04-9002-4d65-9897-c8f36b0197eb"),
+                            Id = new Guid("7331af22-a593-44b4-869b-ec123cb3109e"),
                             CodeWord = "PageServices",
-                            CreatedOn = new DateTime(2022, 5, 22, 11, 32, 31, 168, DateTimeKind.Utc).AddTicks(9693),
+                            CreatedOn = new DateTime(2022, 5, 23, 19, 51, 54, 919, DateTimeKind.Utc).AddTicks(2412),
                             Text = "Содержание заполняется администратором",
                             Title = "Доступные операции"
                         });
@@ -126,10 +126,10 @@ namespace ContactCenter.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "df7bb40d-0448-4612-ba4b-29e0951fbcaa",
-                            ConcurrencyStamp = "4771c974-9e8e-4390-9df4-7a8e10762b8c",
-                            Name = "supervisor",
-                            NormalizedName = "SUPERVISOR"
+                            Id = "46e268ac-74db-47f7-b31c-a975e4902923",
+                            ConcurrencyStamp = "9666c064-ba61-4813-b725-a5853a41027b",
+                            Name = "admin",
+                            NormalizedName = "ADMIN"
                         });
                 });
 
@@ -225,19 +225,19 @@ namespace ContactCenter.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "fc6afc4b-7b57-4d3a-908f-f878f51cf024",
+                            Id = "8b31d0ce-9fc2-46c0-bdd7-4637253057e1",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "5f8f84f8-d692-466c-bebd-3e07d684304e",
-                            Email = "supervisor@email.com",
+                            ConcurrencyStamp = "d157c429-dea9-4cad-b92b-08d4df538071",
+                            Email = "admin@email.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
-                            NormalizedEmail = "SUPERVISOR@email.com",
-                            NormalizedUserName = "SUPERVISOR",
-                            PasswordHash = "AQAAAAEAACcQAAAAEMi8U0T5SnpCv/kqv1lbGy7IsIdIACh7g3RT78mRZAvu00lHeIZTgnZnwn+4F11Wtw==",
+                            NormalizedEmail = "ADMIN@email.com",
+                            NormalizedUserName = "ADMIN",
+                            PasswordHash = "AQAAAAEAACcQAAAAELgkWO5ty/JJVEBzT3/913XairFxby1wltIbRmqEThef2ugh2iTAU6CaX9Tn9fxH+w==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
-                            UserName = "supervisor"
+                            UserName = "admin"
                         });
                 });
 
@@ -305,8 +305,8 @@ namespace ContactCenter.Migrations
                     b.HasData(
                         new
                         {
-                            UserId = "fc6afc4b-7b57-4d3a-908f-f878f51cf024",
-                            RoleId = "df7bb40d-0448-4612-ba4b-29e0951fbcaa"
+                            UserId = "8b31d0ce-9fc2-46c0-bdd7-4637253057e1",
+                            RoleId = "46e268ac-74db-47f7-b31c-a975e4902923"
                         });
                 });
 

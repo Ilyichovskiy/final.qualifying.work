@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Source\\final.qualifying.work\\Projects\\ContactCenter\\ContactCenter\\ContactCenter.csproj": {}
+    "C:\\Source\\final.qualifying.work\\projects\\ContactCenter\\ContactCenter\\ContactCenter.csproj": {}
   },
   "projects": {
-    "C:\\Source\\final.qualifying.work\\Projects\\ContactCenter\\ContactCenter\\ContactCenter.csproj": {
+    "C:\\Source\\final.qualifying.work\\projects\\ContactCenter\\ContactCenter\\ContactCenter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Source\\final.qualifying.work\\Projects\\ContactCenter\\ContactCenter\\ContactCenter.csproj",
+        "projectUniqueName": "C:\\Source\\final.qualifying.work\\projects\\ContactCenter\\ContactCenter\\ContactCenter.csproj",
         "projectName": "ContactCenter",
-        "projectPath": "C:\\Source\\final.qualifying.work\\Projects\\ContactCenter\\ContactCenter\\ContactCenter.csproj",
+        "projectPath": "C:\\Source\\final.qualifying.work\\projects\\ContactCenter\\ContactCenter\\ContactCenter.csproj",
         "packagesPath": "C:\\Users\\iljam\\.nuget\\packages\\",
-        "outputPath": "C:\\Source\\final.qualifying.work\\Projects\\ContactCenter\\ContactCenter\\obj\\",
+        "outputPath": "C:\\Source\\final.qualifying.work\\projects\\ContactCenter\\ContactCenter\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
