@@ -8,49 +8,49 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ContactCenter
 build_property.RootNamespace = ContactCenter
-build_property.ProjectDir = C:\Source\final.qualifying.work\projects\ContactCenter\ContactCenter\
+build_property.ProjectDir = C:\Source\final.qualifying.work\Projects\ContactCenter\ContactCenter\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Source\final.qualifying.work\projects\ContactCenter\ContactCenter
+build_property.MSBuildProjectDirectory = C:\Source\final.qualifying.work\Projects\ContactCenter\ContactCenter
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Source/final.qualifying.work/projects/ContactCenter/ContactCenter/Views/Home/Index.cshtml]
+[C:/Source/final.qualifying.work/Projects/ContactCenter/ContactCenter/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Source/final.qualifying.work/projects/ContactCenter/ContactCenter/Views/Shared/CssPartial.cshtml]
+[C:/Source/final.qualifying.work/Projects/ContactCenter/ContactCenter/Views/Shared/CssPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENzc1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Source/final.qualifying.work/projects/ContactCenter/ContactCenter/Views/Shared/FooterPartial.cshtml]
+[C:/Source/final.qualifying.work/Projects/ContactCenter/ContactCenter/Views/Shared/FooterPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEZvb3RlclBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Source/final.qualifying.work/projects/ContactCenter/ContactCenter/Views/Shared/HeaderPartial.cshtml]
+[C:/Source/final.qualifying.work/Projects/ContactCenter/ContactCenter/Views/Shared/HeaderPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEhlYWRlclBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Source/final.qualifying.work/projects/ContactCenter/ContactCenter/Views/Shared/MetaTagsPartial.cshtml]
+[C:/Source/final.qualifying.work/Projects/ContactCenter/ContactCenter/Views/Shared/MetaTagsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE1ldGFUYWdzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Source/final.qualifying.work/projects/ContactCenter/ContactCenter/Views/Shared/ScriptsPartial.cshtml]
+[C:/Source/final.qualifying.work/Projects/ContactCenter/ContactCenter/Views/Shared/ScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Source/final.qualifying.work/projects/ContactCenter/ContactCenter/Views/Shared/SidebarPartial.cshtml]
+[C:/Source/final.qualifying.work/Projects/ContactCenter/ContactCenter/Views/Shared/SidebarPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFNpZGViYXJQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Source/final.qualifying.work/projects/ContactCenter/ContactCenter/Views/Shared/_Layout.cshtml]
+[C:/Source/final.qualifying.work/Projects/ContactCenter/ContactCenter/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Source/final.qualifying.work/projects/ContactCenter/ContactCenter/Views/_VewImports.cshtml]
+[C:/Source/final.qualifying.work/Projects/ContactCenter/ContactCenter/Views/_VewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1Zld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Source/final.qualifying.work/projects/ContactCenter/ContactCenter/Views/_ViewStart.cshtml]
+[C:/Source/final.qualifying.work/Projects/ContactCenter/ContactCenter/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

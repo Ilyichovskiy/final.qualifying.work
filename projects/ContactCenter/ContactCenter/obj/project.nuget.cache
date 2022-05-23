@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "X4hR9awBjGoga4lRSEoU1bWmMwcBnh032del/PlJsXnw8JGlWdV0hsnc2B2j67Sr4EAdv+SCJja7PSfQ4BkYbA==",
+  "dgSpecHash": "/8byyVJ8dPgoP0mhtzIP08BtBiIjORpnAeNwW4m/o8BCi/45LCxatqZ0hnmM+ZGGdbiGC8eXuv7+VYc7/ZaM8w==",
   "success": true,
-  "projectFilePath": "C:\\Source\\final.qualifying.work\\projects\\ContactCenter\\ContactCenter\\ContactCenter.csproj",
+  "projectFilePath": "C:\\Source\\final.qualifying.work\\Projects\\ContactCenter\\ContactCenter\\ContactCenter.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\iljam\\.nuget\\packages\\azure.core\\1.6.0\\azure.core.1.6.0.nupkg.sha512",
     "C:\\Users\\iljam\\.nuget\\packages\\azure.identity\\1.3.0\\azure.identity.1.3.0.nupkg.sha512",
