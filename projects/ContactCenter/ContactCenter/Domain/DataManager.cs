@@ -4,12 +4,12 @@ namespace ContactCenter.Domain;
 
 public class DataManager
 {
-    private readonly ITextFieldsRepository _textFieldsRepository;
-    private readonly IServiceItemsRepository _serviceItemsRepository;
+    public ITextFieldsRepository TextFieldsRepository;
+    public IServiceItemsRepository ServiceItemsRepository;
 
     public DataManager(ITextFieldsRepository textFieldsRepository, IServiceItemsRepository serviceItemsRepository)
     {
-        _textFieldsRepository = textFieldsRepository;
-        _serviceItemsRepository = serviceItemsRepository;
+        TextFieldsRepository = textFieldsRepository;
+        ServiceItemsRepository = serviceItemsRepository;
     }
 }

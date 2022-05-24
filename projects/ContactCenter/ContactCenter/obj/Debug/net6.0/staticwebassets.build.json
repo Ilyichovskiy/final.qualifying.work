@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GykX2AvGTaaApGu3JosWyRX3U1YtWyiNeKPqApfqFFc=",
+  "Hash": "5QTGjjaj9UTc9XgygDuPo9CkB2U3tR4W0sUL6zop3Tg=",
   "Source": "ContactCenter",
   "BasePath": "_content/ContactCenter",
   "Mode": "Default",
@@ -578,23 +578,6 @@
       "OriginalItemSpec": "wwwroot\\js\\ckeditor5-build-classic\\translations\\da.js"
     },
     {
-      "Identity": "C:\\Source\\final.qualifying.work\\projects\\ContactCenter\\ContactCenter\\wwwroot\\js\\ckeditor5-build-classic\\translations\\de.js",
-      "SourceId": "ContactCenter",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Source\\final.qualifying.work\\projects\\ContactCenter\\ContactCenter\\wwwroot\\",
-      "BasePath": "_content/ContactCenter",
-      "RelativePath": "js/ckeditor5-build-classic/translations/de.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\ckeditor5-build-classic\\translations\\de.js"
-    },
-    {
       "Identity": "C:\\Source\\final.qualifying.work\\projects\\ContactCenter\\ContactCenter\\wwwroot\\js\\ckeditor5-build-classic\\translations\\de-ch.js",
       "SourceId": "ContactCenter",
       "SourceType": "Discovered",
@@ -610,6 +593,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\ckeditor5-build-classic\\translations\\de-ch.js"
+    },
+    {
+      "Identity": "C:\\Source\\final.qualifying.work\\projects\\ContactCenter\\ContactCenter\\wwwroot\\js\\ckeditor5-build-classic\\translations\\de.js",
+      "SourceId": "ContactCenter",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Source\\final.qualifying.work\\projects\\ContactCenter\\ContactCenter\\wwwroot\\",
+      "BasePath": "_content/ContactCenter",
+      "RelativePath": "js/ckeditor5-build-classic/translations/de.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\ckeditor5-build-classic\\translations\\de.js"
     },
     {
       "Identity": "C:\\Source\\final.qualifying.work\\projects\\ContactCenter\\ContactCenter\\wwwroot\\js\\ckeditor5-build-classic\\translations\\el.js",
@@ -1173,23 +1173,6 @@
       "OriginalItemSpec": "wwwroot\\js\\ckeditor5-build-classic\\translations\\pl.js"
     },
     {
-      "Identity": "C:\\Source\\final.qualifying.work\\projects\\ContactCenter\\ContactCenter\\wwwroot\\js\\ckeditor5-build-classic\\translations\\pt.js",
-      "SourceId": "ContactCenter",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Source\\final.qualifying.work\\projects\\ContactCenter\\ContactCenter\\wwwroot\\",
-      "BasePath": "_content/ContactCenter",
-      "RelativePath": "js/ckeditor5-build-classic/translations/pt.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\ckeditor5-build-classic\\translations\\pt.js"
-    },
-    {
       "Identity": "C:\\Source\\final.qualifying.work\\projects\\ContactCenter\\ContactCenter\\wwwroot\\js\\ckeditor5-build-classic\\translations\\pt-br.js",
       "SourceId": "ContactCenter",
       "SourceType": "Discovered",
@@ -1205,6 +1188,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\ckeditor5-build-classic\\translations\\pt-br.js"
+    },
+    {
+      "Identity": "C:\\Source\\final.qualifying.work\\projects\\ContactCenter\\ContactCenter\\wwwroot\\js\\ckeditor5-build-classic\\translations\\pt.js",
+      "SourceId": "ContactCenter",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Source\\final.qualifying.work\\projects\\ContactCenter\\ContactCenter\\wwwroot\\",
+      "BasePath": "_content/ContactCenter",
+      "RelativePath": "js/ckeditor5-build-classic/translations/pt.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\ckeditor5-build-classic\\translations\\pt.js"
     },
     {
       "Identity": "C:\\Source\\final.qualifying.work\\projects\\ContactCenter\\ContactCenter\\wwwroot\\js\\ckeditor5-build-classic\\translations\\ro.js",
@@ -1309,23 +1309,6 @@
       "OriginalItemSpec": "wwwroot\\js\\ckeditor5-build-classic\\translations\\sq.js"
     },
     {
-      "Identity": "C:\\Source\\final.qualifying.work\\projects\\ContactCenter\\ContactCenter\\wwwroot\\js\\ckeditor5-build-classic\\translations\\sr.js",
-      "SourceId": "ContactCenter",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Source\\final.qualifying.work\\projects\\ContactCenter\\ContactCenter\\wwwroot\\",
-      "BasePath": "_content/ContactCenter",
-      "RelativePath": "js/ckeditor5-build-classic/translations/sr.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\ckeditor5-build-classic\\translations\\sr.js"
-    },
-    {
       "Identity": "C:\\Source\\final.qualifying.work\\projects\\ContactCenter\\ContactCenter\\wwwroot\\js\\ckeditor5-build-classic\\translations\\sr-latn.js",
       "SourceId": "ContactCenter",
       "SourceType": "Discovered",
@@ -1341,6 +1324,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\ckeditor5-build-classic\\translations\\sr-latn.js"
+    },
+    {
+      "Identity": "C:\\Source\\final.qualifying.work\\projects\\ContactCenter\\ContactCenter\\wwwroot\\js\\ckeditor5-build-classic\\translations\\sr.js",
+      "SourceId": "ContactCenter",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Source\\final.qualifying.work\\projects\\ContactCenter\\ContactCenter\\wwwroot\\",
+      "BasePath": "_content/ContactCenter",
+      "RelativePath": "js/ckeditor5-build-classic/translations/sr.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\ckeditor5-build-classic\\translations\\sr.js"
     },
     {
       "Identity": "C:\\Source\\final.qualifying.work\\projects\\ContactCenter\\ContactCenter\\wwwroot\\js\\ckeditor5-build-classic\\translations\\sv.js",
@@ -1496,23 +1496,6 @@
       "OriginalItemSpec": "wwwroot\\js\\ckeditor5-build-classic\\translations\\vi.js"
     },
     {
-      "Identity": "C:\\Source\\final.qualifying.work\\projects\\ContactCenter\\ContactCenter\\wwwroot\\js\\ckeditor5-build-classic\\translations\\zh.js",
-      "SourceId": "ContactCenter",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Source\\final.qualifying.work\\projects\\ContactCenter\\ContactCenter\\wwwroot\\",
-      "BasePath": "_content/ContactCenter",
-      "RelativePath": "js/ckeditor5-build-classic/translations/zh.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\ckeditor5-build-classic\\translations\\zh.js"
-    },
-    {
       "Identity": "C:\\Source\\final.qualifying.work\\projects\\ContactCenter\\ContactCenter\\wwwroot\\js\\ckeditor5-build-classic\\translations\\zh-cn.js",
       "SourceId": "ContactCenter",
       "SourceType": "Discovered",
@@ -1528,6 +1511,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\ckeditor5-build-classic\\translations\\zh-cn.js"
+    },
+    {
+      "Identity": "C:\\Source\\final.qualifying.work\\projects\\ContactCenter\\ContactCenter\\wwwroot\\js\\ckeditor5-build-classic\\translations\\zh.js",
+      "SourceId": "ContactCenter",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Source\\final.qualifying.work\\projects\\ContactCenter\\ContactCenter\\wwwroot\\",
+      "BasePath": "_content/ContactCenter",
+      "RelativePath": "js/ckeditor5-build-classic/translations/zh.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\ckeditor5-build-classic\\translations\\zh.js"
     },
     {
       "Identity": "C:\\Source\\final.qualifying.work\\projects\\ContactCenter\\ContactCenter\\wwwroot\\js\\jquery.min.js",

@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ContactCenter.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20220523195155__initial")]
+    [Migration("20220523204317__initial")]
     partial class _initial
     {
         /// <inheritdoc />
@@ -33,6 +33,18 @@ namespace ContactCenter.Migrations
 
                     b.Property<DateTime>("CreatedOn")
                         .HasColumnType("datetime2");
+
+                    b.Property<string>("MetaDescription")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("MetaKeywords")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("MetaTitle")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Subtitle")
                         .HasColumnType("nvarchar(max)");
@@ -65,6 +77,18 @@ namespace ContactCenter.Migrations
                     b.Property<DateTime>("CreatedOn")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("MetaDescription")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("MetaKeywords")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("MetaTitle")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Subtitle")
                         .HasColumnType("nvarchar(max)");
 
@@ -84,17 +108,23 @@ namespace ContactCenter.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("190d0b7f-465a-4481-afb0-4d49c2315f9c"),
+                            Id = new Guid("3c91c31e-1c70-4584-9b29-175556f98df0"),
                             CodeWord = "PageIndex",
-                            CreatedOn = new DateTime(2022, 5, 23, 19, 51, 54, 919, DateTimeKind.Utc).AddTicks(2399),
+                            CreatedOn = new DateTime(2022, 5, 23, 20, 43, 17, 372, DateTimeKind.Utc).AddTicks(2851),
+                            MetaDescription = "",
+                            MetaKeywords = "",
+                            MetaTitle = "",
                             Text = "Содержание заполняется администратором",
                             Title = "Главная"
                         },
                         new
                         {
-                            Id = new Guid("7331af22-a593-44b4-869b-ec123cb3109e"),
+                            Id = new Guid("c82965cd-676b-4210-9b0b-94c12d3447b4"),
                             CodeWord = "PageServices",
-                            CreatedOn = new DateTime(2022, 5, 23, 19, 51, 54, 919, DateTimeKind.Utc).AddTicks(2412),
+                            CreatedOn = new DateTime(2022, 5, 23, 20, 43, 17, 372, DateTimeKind.Utc).AddTicks(2873),
+                            MetaDescription = "",
+                            MetaKeywords = "",
+                            MetaTitle = "",
                             Text = "Содержание заполняется администратором",
                             Title = "Доступные операции"
                         });
@@ -129,8 +159,8 @@ namespace ContactCenter.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "46e268ac-74db-47f7-b31c-a975e4902923",
-                            ConcurrencyStamp = "9666c064-ba61-4813-b725-a5853a41027b",
+                            Id = "f9e45607-ef87-406c-b7c5-453bb8b8d569",
+                            ConcurrencyStamp = "c70d1559-3b38-4116-badd-bfc479273f64",
                             Name = "admin",
                             NormalizedName = "ADMIN"
                         });
@@ -228,15 +258,15 @@ namespace ContactCenter.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "8b31d0ce-9fc2-46c0-bdd7-4637253057e1",
+                            Id = "2f35033b-bbfa-4783-a84c-a59c4344bba5",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "d157c429-dea9-4cad-b92b-08d4df538071",
+                            ConcurrencyStamp = "2f979c15-9822-4000-80c0-65ffba482e6b",
                             Email = "admin@email.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@email.com",
                             NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAEAACcQAAAAELgkWO5ty/JJVEBzT3/913XairFxby1wltIbRmqEThef2ugh2iTAU6CaX9Tn9fxH+w==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEFpg1+4SP55/JVhWhEOqJv61iIvZTowqLfRBCoCGRji4nQXgt2ufe5WUW6QPIGlanw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -308,8 +338,8 @@ namespace ContactCenter.Migrations
                     b.HasData(
                         new
                         {
-                            UserId = "8b31d0ce-9fc2-46c0-bdd7-4637253057e1",
-                            RoleId = "46e268ac-74db-47f7-b31c-a975e4902923"
+                            UserId = "2f35033b-bbfa-4783-a84c-a59c4344bba5",
+                            RoleId = "f9e45607-ef87-406c-b7c5-453bb8b8d569"
                         });
                 });
 

@@ -8,6 +8,7 @@ public class LoginViewModel
     public string UserName { get; set; }
 
     [Required]
+    [UIHint("password")]
     [Display(Name = "Пароль")]
     public string Password { get; set; }
 
