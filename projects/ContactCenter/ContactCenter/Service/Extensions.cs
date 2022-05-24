@@ -1,10 +1,9 @@
-﻿namespace ContactCenter.Service
+﻿namespace ContactCenter.Service;
+
+public static class Extensions
 {
-    public static class Extensions
+    public static string CutController(this string str)
     {
-        public static string CutController(this string str)
-        {
-            return str.Replace("Controller", "");
-        }
+        return str.Replace("Controller", "");
     }
 }

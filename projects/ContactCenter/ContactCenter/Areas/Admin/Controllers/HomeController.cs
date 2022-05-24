@@ -1,21 +1,20 @@
 ﻿using ContactCenter.Domain;
 using Microsoft.AspNetCore.Mvc;
 
-namespace ContactCenter.Areas.Admin.Controllers
+namespace ContactCenter.Areas.Admin.Controllers;
+
+[Area("Admin")]
+public class HomeController : Controller
 {
-    [Area("Admin")]
-    public class HomeController : Controller
+    private readonly DataManager _dataManager;
+
+    public HomeController(DataManager dataManager)
     {
-        private readonly DataManager dataManager;
+        _dataManager = dataManager;
+    }
 
-        public HomeController(DataManager dataManager)
-        {
-            this.dataManager = dataManager;
-        }
-
-        public IActionResult Index()
-        {
-            return View(dataManager.ServiceItemsRepository.GetServiceItems());
-        }
+    public IActionResult Index()
+    {
+        return View(_dataManager.ServiceItemsRepository.GetServiceItems());
     }
 }

@@ -8,34 +8,33 @@ namespace ContactCenter.Areas.Admin.Controllers
     [Area("Admin")]
     public class ServiceItemsController : Controller
     {
-        private readonly DataManager dataManager;
-        private readonly IWebHostEnvironment hostingEnvironment;
+        private readonly DataManager _dataManager;
+        private readonly IWebHostEnvironment _hostingEnvironment;
         public ServiceItemsController(DataManager dataManager, IWebHostEnvironment hostingEnvironment)
         {
-            this.dataManager = dataManager;
-            this.hostingEnvironment = hostingEnvironment;
+            _dataManager = dataManager;
+            _hostingEnvironment = hostingEnvironment;
         }
 
         public IActionResult Edit(Guid id)
         {
-            var entity = id == default ? new ServiceItem() : dataManager.ServiceItemsRepository.GetServiceItem(id);
+            var entity = id == default ? new ServiceItem() : _dataManager.ServiceItemsRepository.GetServiceItem(id);
             return View(entity);
         }
 
         [HttpPost]
-        public IActionResult Edit(ServiceItem model, IFormFile titleImageFile)
+        public IActionResult Edit(ServiceItem model, IFormFile? titleImageFile)
         {
             if (ModelState.IsValid)
             {
                 if (titleImageFile != null)
                 {
                     model.TitleImagePath = titleImageFile.FileName;
-                    using (var stream = new FileStream(Path.Combine(hostingEnvironment.WebRootPath, "images/", titleImageFile.FileName), FileMode.Create))
-                    {
-                        titleImageFile.CopyTo(stream);
-                    }
+                    
+                    using var stream = new FileStream(Path.Combine(_hostingEnvironment.WebRootPath, "images/", titleImageFile.FileName), FileMode.Create);
+                    titleImageFile.CopyTo(stream);
                 }
-                dataManager.ServiceItemsRepository.SaveServiceItem(model);
+                _dataManager.ServiceItemsRepository.SaveServiceItem(model);
                 return RedirectToAction(nameof(HomeController.Index), nameof(HomeController).CutController());
             }
             return View(model);
@@ -44,7 +43,7 @@ namespace ContactCenter.Areas.Admin.Controllers
         [HttpPost]
         public IActionResult Delete(Guid id)
         {
-            dataManager.ServiceItemsRepository.DeleteServiceItem(id);
+            _dataManager.ServiceItemsRepository.DeleteServiceItem(id);
             return RedirectToAction(nameof(HomeController.Index), nameof(HomeController).CutController());
         }
     }
