@@ -18,12 +18,18 @@ public abstract class EntityBase
     [Display(Name = "Полное описание")]
     public virtual string? Text { get; set; }
 
-    [Display(Name = "SEO метатег Title")]
+    /// <summary>
+    /// Название кнопки
+    /// </summary>
+    [Display(Name = "Название кнопки")]
     public string MetaTitle { get; set; } = "";
 
-    [Display(Name = "SEO метатег Description")]
+    /// <summary>
+    /// Название сервиса
+    /// </summary>
+    [Display(Name = "Название сервиса")]
     public string MetaDescription { get; set; } = "";
-
+    
     [Display(Name = "SEO метатег Keywords")]
     public string MetaKeywords { get; set; } = "";
 

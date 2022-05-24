@@ -4,16 +4,15 @@
             <div class="col-12">
 
                 <header id="header">
-                    <h1><a href="index.html" id="logo">Minimaxing</a></h1>
+                    <h1><a href="/" id="logo">Контакт-центр</a></h1>
                     <nav id="nav">
-                        <a href="index.html">Homepage</a>
-                        <a href="twocolumn1.html">Two Column #1</a>
-                        <a href="twocolumn2.html" class="current-page-item">Two Column #2</a>
-                        <a href="onecolumn.html">One Column</a>
-                        <a href="threecolumn.html">Three Column</a>
+                        <a asp-area="" asp-controller="Home" asp-action="Index">Главная</a>
+                        <a asp-area="" asp-controller="Services" asp-action="Index" asp-route-id="">Сервисы</a>
+                        <a asp-area="" asp-controller="Home" asp-action="Contacts">Контакты</a>
+                        <a asp-area="" asp-controller="Account" asp-action="Login">Войти</a>
+                        <a asp-area="Admin" asp-controller="Home" asp-action="Index">Панель администратора</a>
                     </nav>
                 </header>
-
             </div>
         </div>
     </div>

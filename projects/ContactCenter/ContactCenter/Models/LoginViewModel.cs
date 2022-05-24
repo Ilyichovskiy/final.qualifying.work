@@ -8,6 +8,7 @@ public class LoginViewModel
     public string UserName { get; set; }
 
     [Required]
+    // ReSharper disable once Mvc.TemplateNotResolved
     [UIHint("password")]
     [Display(Name = "Пароль")]
     public string Password { get; set; }

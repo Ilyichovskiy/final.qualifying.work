@@ -11,6 +11,7 @@ builder.Configuration.AddJsonFile("appsettings.json");
 
 builder.Services.AddTransient<ITextFieldsRepository, TextFieldsRepository>();
 builder.Services.AddTransient<IServiceItemsRepository, ServiceItemsRepository>();
+builder.Services.AddTransient<ISmsService, SmsService>();
 builder.Services.AddTransient<DataManager>();
 
 var connection = builder.Configuration.GetConnectionString("DefaultConnection");

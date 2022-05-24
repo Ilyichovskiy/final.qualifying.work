@@ -59,7 +59,14 @@ public class AppDbContext : IdentityDbContext<IdentityUser>
         {
             Id = Guid.NewGuid(),
             CodeWord = "PageServices",
-            Title = "Доступные операции"
+            Title = "Сервисы"
+        });
+        
+        modelBuilder.Entity<TextField>().HasData(new TextField
+        {
+            Id = Guid.NewGuid(),
+            CodeWord = "PageContacts",
+            Title = "Контакты"
         });
     }
 }

@@ -1,6 +1,6 @@
 ﻿@model IQueryable<ServiceItem>
 @{
-    string strTitle = "Панель администратора";
+    const string strTitle = "Панель администратора";
     ViewBag.Title = strTitle;
 }
 
@@ -9,12 +9,12 @@
     <div>
         <h3>Доступные сервисы</h3>
         <div class="div-box">
-            <a asp-area="Admin" asp-controller="ServiceItems" asp-action="Edit" asp-route-id="">Добавить услугу</a>
+            <a asp-area="Admin" asp-controller="ServiceItems" asp-action="Edit" asp-route-id="">Добавить сервис</a>
         </div>
         @if (Model.Any())
         {
             <div>
-                @foreach (ServiceItem entity in Model)
+                @foreach (var entity in Model)
                 {
                     <div>
                         <a asp-area="Admin" asp-controller="ServiceItems" asp-action="Edit" asp-route-id="@entity.Id">редактировать</a>
@@ -35,7 +35,7 @@
     <div class="div-box">
         <h3>Редактировать страницы сайта</h3>
         <a asp-area="Admin" asp-controller="TextFields" asp-action="Edit" asp-route-codeWord="PageIndex">Главная</a>
-        <a asp-area="Admin" asp-controller="TextFields" asp-action="Edit" asp-route-codeWord="PageServices">Наши услуги</a>
+        <a asp-area="Admin" asp-controller="TextFields" asp-action="Edit" asp-route-codeWord="PageServices">Сервисы</a>
         <a asp-area="Admin" asp-controller="TextFields" asp-action="Edit" asp-route-codeWord="PageContacts">Контакты</a>
     </div>
     <div class="div-box">
