@@ -1,0 +1,27 @@
+﻿<div>
+    <h2>
+        Сервис работы со статистикой
+    </h2>
+    <form asp-controller="Services" asp-action="Call" method="post">
+        <p>
+            <input type="checkbox" name="phoneNumber"/>
+            <label>Статистика по конкретному дню</label><br/>
+            <input type="date" name="phoneNumber"/>
+        </p>
+        <p>
+            <input type="checkbox" name="phoneNumber"/>
+            <label>Статистика в период </label><br/>
+            <label>От </label>
+            <input type="date" name="phoneNumber"/>
+            <label> до </label>
+            <input type="date" name="phoneNumber"/>
+        </p>
+        <p>
+            <input type="checkbox" name="phoneNumber"/>
+            <label>Получить всю статистику</label>
+        </p>
+        <p>
+            <input type="submit" value="Получить"/>
+        </p>
+    </form>
+</div>

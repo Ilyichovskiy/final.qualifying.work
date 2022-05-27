@@ -1,0 +1,22 @@
+﻿<div>
+    <h2>
+        Сервис совершения звонка
+    </h2>
+    <h1>
+        @ViewBag.Message
+    </h1>
+    <form asp-controller="Services" asp-action="Call" method="post">
+        <p>
+            <label>Номер телефона</label><br/>
+            <input type="text" name="phoneNumber"/>
+        </p>
+        <p>
+            <label>Имя контакта</label><br/>
+            <input type="text" name="phoneNumber"/>
+        </p>
+        <p>
+            <input type="submit" value="Позвонить"/>
+            <input type="submit" value="Сбросить"/>
+        </p>
+    </form>
+</div>
