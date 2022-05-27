@@ -8,11 +8,13 @@ public class ServicesController : Controller
 {
     private readonly DataManager _dataManager;
     private readonly ISmsService _smsService;
+    private readonly ICallService _callService;
 
-    public ServicesController(DataManager dataManager, ISmsService smsService)
+    public ServicesController(DataManager dataManager, ISmsService smsService, ICallService callService)
     {
         _dataManager = dataManager;
         _smsService = smsService;
+        _callService = callService;
     }
 
     public IActionResult Index(Guid id)
@@ -26,15 +28,39 @@ public class ServicesController : Controller
         return View(_dataManager.ServiceItemsRepository.GetServiceItems());
     }
 
+    [HttpGet]
     public IActionResult Call()
     {
-        
+        return View();
+    }
+    
+    [HttpPost]
+    public IActionResult Call(string phoneNumber)
+    {
+        _callService.Call(phoneNumber);
         return View();
     }
 
+    [HttpGet]
     public IActionResult Send()
     {
-        _smsService.Send("model");
+        return View();
+    }
+    
+    [HttpPost]
+    public IActionResult Send(string phoneNumber, string textMessage)
+    {
+        var result = _smsService.Send(textMessage);
+        ViewBag.Message = result
+            ? $"Сообщение по номеру: {phoneNumber} успешно отправлено!"
+            : $"Сообщение по номеру: {phoneNumber} не удалось отправить!";
+        
+        return View();
+    }
+    
+    [HttpGet]
+    public IActionResult Statistics()
+    {
         return View();
     }
 }

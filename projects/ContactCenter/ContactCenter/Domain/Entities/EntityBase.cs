@@ -21,16 +21,16 @@ public abstract class EntityBase
     /// <summary>
     /// Название кнопки
     /// </summary>
-    [Display(Name = "Название кнопки")]
+    [Display(Name = "Метатег навзание сервиса")]
     public string MetaTitle { get; set; } = "";
 
     /// <summary>
     /// Название сервиса
     /// </summary>
-    [Display(Name = "Название сервиса")]
+    [Display(Name = "Метатег описание")]
     public string MetaDescription { get; set; } = "";
     
-    [Display(Name = "SEO метатег Keywords")]
+    [Display(Name = "Метатег ключевое слово")]
     public string MetaKeywords { get; set; } = "";
 
     [Display(Name = "Титульная картинка")]

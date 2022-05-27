@@ -1,1 +1,21 @@
-﻿Отправка
+﻿<div>
+    <h2>
+        Сервис отправки сообщения
+    </h2>
+    <h1>
+        @ViewBag.Message
+    </h1>
+    <form asp-controller="Services" asp-action="Send" method="post">
+        <p>
+            <label>Номер телефона</label><br/>
+            <input type="text" name="phoneNumber"/>
+        </p>
+        <p>
+            <label>Сообщение</label><br/>
+            <textarea name="textMessage"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Отправить"/>
+        </p>
+    </form>
+</div>
